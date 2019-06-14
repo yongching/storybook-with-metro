@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook -p 7007"
   },
   "dependencies": {
     "react": "16.8.3",
@@ -13,9 +14,18 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
+    "@emotion/core": "^10.0.10",
+    "@storybook/addon-actions": "^5.1.7",
+    "@storybook/addon-links": "^5.1.7",
+    "@storybook/addons": "^5.1.7",
+    "@storybook/react-native": "^5.1.7",
+    "@storybook/react-native-server": "^5.1.7",
     "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "emotion-theming": "^10.0.10",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.54.1",
+    "react-dom": "16.8.3",
     "react-test-renderer": "16.8.3"
   },
   "jest": {
